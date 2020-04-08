@@ -31,7 +31,7 @@ $ docker pull continuumio/anaconda3
 
 **Step 2:**
 
-The [dataset](https://www.kaggle.com/jolasa/bay-area-bike-sharing-trips) should be available in locally. It's not included with the code in this repository.
+The [dataset](https://www.kaggle.com/jolasa/bay-area-bike-sharing-trips) should be available locally. It's not included with the code in this repository.
 
 
 **Step 3:**
