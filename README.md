@@ -29,12 +29,18 @@ $ docker pull continuumio/anaconda3
 ```
 
 **Step 2:**
-Run a Docker container and specify a local folder on your hard-drive as a volume by including `-v C:\projects\some-project:/opt/notebooks` when executing `docker run`.
+
+The [dataset](https://www.kaggle.com/jolasa/bay-area-bike-sharing-trips) should be available in a localy. It's not included with the code in this repository.
+
+**Step 3:**
+Run a Docker container and specify a local folder which contains the dataset on your hard-drive as a volume by including `-v C:\projects\some-project:/opt/notebooks` when executing `docker run`.
 
 
 ```
 $ docker run -i -t -v C:\projects\some-project:/opt/notebooks -p 8888:8888 continuumio/anaconda3 /bin/bash -c  "/opt/conda/bin/conda install jupyter -y --quiet && mkdir -p /opt/notebooks && /opt/conda/bin/jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=8888 --no-browser --allow-root"
 ```
+
+
 
 The container can be shutdown and restarted with `docker start gallant_haslett`. Replace `gallant_haslett` with the name of the container.
 
