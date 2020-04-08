@@ -21,6 +21,7 @@ Analysis was done with Python 3 and the following tools:
 * Docker
 
 **Step 1:**
+
 Pull a Docker image of Anaconda 3, maintained by Continuum [here](https://hub.docker.com/r/continuumio/anaconda3).
 
 
@@ -30,9 +31,11 @@ $ docker pull continuumio/anaconda3
 
 **Step 2:**
 
-The [dataset](https://www.kaggle.com/jolasa/bay-area-bike-sharing-trips) should be available in a localy. It's not included with the code in this repository.
+The [dataset](https://www.kaggle.com/jolasa/bay-area-bike-sharing-trips) should be available in locally. It's not included with the code in this repository.
+
 
 **Step 3:**
+
 Run a Docker container and specify a local folder which contains the dataset on your hard-drive as a volume by including `-v C:\projects\some-project:/opt/notebooks` when executing `docker run`.
 
 
