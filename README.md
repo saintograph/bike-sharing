@@ -2,6 +2,8 @@
 
 ### Introduction
 
+Blog post: https://medium.com/@saintograph/who-should-the-next-marketing-campaign-be-for-590968c2896d
+
 Lyft operates a bike sharing service in 5 cities across the United States.
 * New York
 * Bay Area, San Francisco
